@@ -1,7 +1,0 @@
-#!/bin/bash
-
-echo "Enter Repo Name:"
-read repo_name
-echo "Enter Your Personal Token: "
-read personal_token
-git clone https://${personal_token}@github.com/AhmedHamdi0/${repo_name}.git
